@@ -27,7 +27,7 @@ public class Quote {
     @PostMapping("/quote")
     public QuoteResponse score(@RequestBody QuoteRequest request) {
 
-        logger.info("Received request as follows  - " + request.toString());
+        logger.info("Received request as follows once again  - " + request.toString());
 
         // Build health score request
         HealthScoreRequest hs = new HealthScoreRequest();
